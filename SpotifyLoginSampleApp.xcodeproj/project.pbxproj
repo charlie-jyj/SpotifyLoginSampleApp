@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C39935654276DEDF80D00D7 /* Pods_SpotifyLoginSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBD37767E29566F1C7B643C /* Pods_SpotifyLoginSampleApp.framework */; };
 		9268FEA2279643F1004E2FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268FEA1279643F1004E2FF2 /* AppDelegate.swift */; };
 		9268FEA4279643F1004E2FF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268FEA3279643F1004E2FF2 /* SceneDelegate.swift */; };
 		9268FEA9279643F1004E2FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9268FEA7279643F1004E2FF2 /* Main.storyboard */; };
@@ -15,9 +16,12 @@
 		9268FEB727964565004E2FF2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268FEB627964565004E2FF2 /* LoginViewController.swift */; };
 		9268FEB9279679BD004E2FF2 /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268FEB8279679BD004E2FF2 /* EnterEmailViewController.swift */; };
 		9268FEBB27968E0F004E2FF2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268FEBA27968E0F004E2FF2 /* MainViewController.swift */; };
+		9268FEBD2796A174004E2FF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9268FEBC2796A174004E2FF2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BBD37767E29566F1C7B643C /* Pods_SpotifyLoginSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyLoginSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4773A2E86EC2128CDFC7E0 /* Pods-SpotifyLoginSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyLoginSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyLoginSampleApp/Pods-SpotifyLoginSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9268FE9E279643F1004E2FF2 /* SpotifyLoginSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyLoginSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9268FEA1279643F1004E2FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9268FEA3279643F1004E2FF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +33,9 @@
 		9268FEB627964565004E2FF2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9268FEB8279679BD004E2FF2 /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
 		9268FEBA27968E0F004E2FF2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9268FEBC2796A174004E2FF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9268FEBE2797AA20004E2FF2 /* SpotifyLoginSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpotifyLoginSampleApp.entitlements; sourceTree = "<group>"; };
+		BB6757171375D84BD3E03132 /* Pods-SpotifyLoginSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyLoginSampleApp.release.xcconfig"; path = "Target Support Files/Pods-SpotifyLoginSampleApp/Pods-SpotifyLoginSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,18 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C39935654276DEDF80D00D7 /* Pods_SpotifyLoginSampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		446C8CB5BFA9A686323E3391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD37767E29566F1C7B643C /* Pods_SpotifyLoginSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9268FE95279643F1004E2FF2 = {
 			isa = PBXGroup;
 			children = (
 				9268FEB52796441F004E2FF2 /* README.md */,
 				9268FEA0279643F1004E2FF2 /* SpotifyLoginSampleApp */,
 				9268FE9F279643F1004E2FF2 /* Products */,
+				F735CDD08B451C7ED624AE30 /* Pods */,
+				446C8CB5BFA9A686323E3391 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,17 +80,28 @@
 		9268FEA0279643F1004E2FF2 /* SpotifyLoginSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				9268FEBE2797AA20004E2FF2 /* SpotifyLoginSampleApp.entitlements */,
 				9268FEA1279643F1004E2FF2 /* AppDelegate.swift */,
 				9268FEA3279643F1004E2FF2 /* SceneDelegate.swift */,
 				9268FEA7279643F1004E2FF2 /* Main.storyboard */,
 				9268FEAA279643F5004E2FF2 /* Assets.xcassets */,
 				9268FEAC279643F5004E2FF2 /* LaunchScreen.storyboard */,
 				9268FEAF279643F5004E2FF2 /* Info.plist */,
+				9268FEBC2796A174004E2FF2 /* GoogleService-Info.plist */,
 				9268FEB627964565004E2FF2 /* LoginViewController.swift */,
 				9268FEB8279679BD004E2FF2 /* EnterEmailViewController.swift */,
 				9268FEBA27968E0F004E2FF2 /* MainViewController.swift */,
 			);
 			path = SpotifyLoginSampleApp;
+			sourceTree = "<group>";
+		};
+		F735CDD08B451C7ED624AE30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F4773A2E86EC2128CDFC7E0 /* Pods-SpotifyLoginSampleApp.debug.xcconfig */,
+				BB6757171375D84BD3E03132 /* Pods-SpotifyLoginSampleApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9268FEB2279643F5004E2FF2 /* Build configuration list for PBXNativeTarget "SpotifyLoginSampleApp" */;
 			buildPhases = (
+				32F8D217AE04F6FCDC5DC1AD /* [CP] Check Pods Manifest.lock */,
 				9268FE9A279643F1004E2FF2 /* Sources */,
 				9268FE9B279643F1004E2FF2 /* Frameworks */,
 				9268FE9C279643F1004E2FF2 /* Resources */,
+				6D31960CC3891AD15F2399D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +164,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				9268FEAE279643F5004E2FF2 /* LaunchScreen.storyboard in Resources */,
+				9268FEBD2796A174004E2FF2 /* GoogleService-Info.plist in Resources */,
 				9268FEAB279643F5004E2FF2 /* Assets.xcassets in Resources */,
 				9268FEA9279643F1004E2FF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32F8D217AE04F6FCDC5DC1AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpotifyLoginSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D31960CC3891AD15F2399D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotifyLoginSampleApp/Pods-SpotifyLoginSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotifyLoginSampleApp/Pods-SpotifyLoginSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpotifyLoginSampleApp/Pods-SpotifyLoginSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9268FE9A279643F1004E2FF2 /* Sources */ = {
@@ -293,9 +367,12 @@
 		};
 		9268FEB3279643F5004E2FF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4773A2E86EC2128CDFC7E0 /* Pods-SpotifyLoginSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpotifyLoginSampleApp/SpotifyLoginSampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJA7283JV3;
 				INFOPLIST_FILE = SpotifyLoginSampleApp/Info.plist;
@@ -303,8 +380,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.fastcampus.SpotifyLoginSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.SpotifyLoginSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,9 +390,12 @@
 		};
 		9268FEB4279643F5004E2FF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6757171375D84BD3E03132 /* Pods-SpotifyLoginSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpotifyLoginSampleApp/SpotifyLoginSampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XJA7283JV3;
 				INFOPLIST_FILE = SpotifyLoginSampleApp/Info.plist;
@@ -322,8 +403,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.fastcampus.SpotifyLoginSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.SpotifyLoginSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

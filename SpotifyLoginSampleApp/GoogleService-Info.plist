@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>286489012478-bch8cp19bk2soaunkcupkap4oq5g6ff4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.286489012478-bch8cp19bk2soaunkcupkap4oq5g6ff4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD4v2FmHw1D_ZB2YZ_ATKzizZSjgaQke0E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>286489012478</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kr.co.fastcampus.SpotifyLoginSampleApp</string>
+	<key>PROJECT_ID</key>
+	<string>spotify-style-login-samp-22bf7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spotify-style-login-samp-22bf7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:286489012478:ios:7a19410688d3905f751daf</string>
+</dict>
+</plist>
